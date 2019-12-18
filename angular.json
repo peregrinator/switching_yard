@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles.scss",
               "src/stylesheets/fonts.scss",
+              "src/stylesheets/forms.scss",
+              "src/stylesheets/theme.scss"
             ],
             "scripts": []
           },
@@ -93,7 +96,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/stylesheets/fonts.scss",
+              "src/stylesheets/forms.scss",
+              "src/stylesheets/theme.scss"
             ],
             "scripts": []
           }
@@ -124,6 +130,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-starter"
 }

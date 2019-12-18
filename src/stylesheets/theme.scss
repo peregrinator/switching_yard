@@ -1,0 +1,17 @@
+// defaults:
+// @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+
+// customization:
+@import '~@angular/material/theming';
+@import "variables";
+@include mat-core();
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Inter, sans-serif'
+);
+@include angular-material-typography($custom-typography);
+
+$app-theme:   mat-light-theme($app-primary, $app-accent, $app-warn);
+
+@include angular-material-theme($app-theme);
